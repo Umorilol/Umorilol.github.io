@@ -1,7 +1,7 @@
 /* commonstyle.css */
 
 body {
-    background-color: goldenrod;
+    background-color: rgb(138, 173, 150);
 }
 
 figure img {
@@ -12,4 +12,20 @@ figure img {
 footer {
     background-color: #e9ecef;
     border-top: 1px solid #dee2ed;
+}
+
+/* Gallery Styling */
+.gallery-item img {
+    width: 100%;        
+    height: 250px;    
+    
+    object-fit: cover;  /* Crop excess; ensures no stretching/squishing */
+    
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }

@@ -1,0 +1,15 @@
+/* commonstyle.css */
+
+body {
+    background-color: goldenrod;
+}
+
+figure img {
+    border: 5px solid white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Add a shadow effect */
+}
+
+footer {
+    background-color: #e9ecef;
+    border-top: 1px solid #dee2ed;
+}
